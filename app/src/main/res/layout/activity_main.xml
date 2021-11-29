@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252525"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ImageButton
+        android:id="@+id/imgtopdf"
+        android:layout_width="193dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/pdftoexcel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.829"
+        app:srcCompat="@drawable/imgpdf"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/mergepdf"
+        android:layout_width="193dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/exceltopdf"
+        app:layout_constraintStart_toEndOf="@+id/imgtopdf"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811"
+        app:srcCompat="@drawable/merge"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/wordtopdf"
+        android:layout_width="193dp"
+        android:layout_height="135dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859"
+        app:srcCompat="@drawable/wordpdf"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/exceltopdf"
+        android:layout_width="193dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/pdftoword"
+        app:layout_constraintStart_toEndOf="@+id/pdftoexcel"
+        app:srcCompat="@drawable/excelpdf"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/pdftoword"
+        android:layout_width="193dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/wordtopdf"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859"
+        app:srcCompat="@drawable/pdfword"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+
+        android:id="@+id/pdftoexcel"
+        android:layout_width="193dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="36dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/wordtopdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pdfexcel"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/info"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="#040000"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/mergepdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
