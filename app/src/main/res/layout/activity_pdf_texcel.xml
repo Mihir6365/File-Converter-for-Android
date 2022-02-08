@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#292828"
+    android:background="@drawable/background"
     tools:context=".pdfTexcel">
 
     <ProgressBar
@@ -36,12 +36,14 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="271dp"
+        android:layout_height="135dp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854"
         app:srcCompat="@drawable/pdfexcel" />
 
     <TextView
@@ -50,7 +52,7 @@
         android:layout_height="199dp"
         android:layout_marginTop="28dp"
         android:text="Select PDF fille to convert into excel"
-        android:textColor="#EDEAEA"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/imagebutton3"
         app:layout_constraintEnd_toEndOf="parent"

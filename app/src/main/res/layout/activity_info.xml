@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="#2C2C2C"
+
+    android:background="@drawable/background"
     tools:context=".info">
 
     <TextView
@@ -15,7 +16,7 @@
 
         android:text="MADE BY:- \n Mihir Savla \n Kaustubh Raut \n Sahil Sahane \n\nEMAILS:- \n  savla.mp@somaiya.edu\n  kaustubh.raut@somaiya.edu\n  sahil.sahane@somaiya.edu\n\n               VERSION 1.0"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#2A8AFF"
+        android:textColor="#BF1B53"
         android:textColorHint="#0C0000"
         android:textSize="24sp"
         android:textStyle="bold|italic"

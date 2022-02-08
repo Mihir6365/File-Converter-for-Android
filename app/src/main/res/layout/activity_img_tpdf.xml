@@ -5,7 +5,7 @@
     android:id="@+id/imagebutton3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#292828"
+    android:background="@drawable/background"
     tools:context=".imgTpdf">
 
     <ProgressBar
@@ -38,13 +38,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="248dp"
+        android:layout_height="142dp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731"
         app:srcCompat="@drawable/imgpdf" />
 
     <TextView
@@ -52,7 +53,7 @@
         android:layout_width="352dp"
         android:layout_height="199dp"
         android:text="Select images to convert into pdf"
-        android:textColor="#EDEAEA"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton1"
         app:layout_constraintEnd_toEndOf="parent"

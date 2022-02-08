@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/File-Converter-for-Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.176" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/File-Converter-for-Android/app/src/main/res/layout/activity_excel_tpdf.xml" value="0.275" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/File-Converter-for-Android/app/src/main/res/layout/activity_img_tpdf.xml" value="0.275" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/File-Converter-for-Android/app/src/main/res/layout/activity_info.xml" value="0.275" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/File-Converter-for-Android/app/src/main/res/layout/activity_main.xml" value="0.275" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/File-Converter-for-Android/app/src/main/res/layout/activity_mergepdf.xml" value="0.275" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/File-Converter-for-Android/app/src/main/res/layout/activity_pdf_texcel.xml" value="0.275" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/File-Converter-for-Android/app/src/main/res/layout/activity_pdf_tword.xml" value="0.275" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/File-Converter-for-Android/app/src/main/res/layout/activity_word_tpdf.xml" value="0.275" />
         <entry key="..\:/Users/mihir/Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/mihir/Project/app/src/main/res/layout/activity_excel_tpdf.xml" value="0.25" />
         <entry key="..\:/Users/mihir/Project/app/src/main/res/layout/activity_img_tpdf.xml" value="0.25" />
